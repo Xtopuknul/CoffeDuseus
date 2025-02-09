@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(50, 50, 50);
+    color: rgb(222, 222, 222);
+    height: 8vh; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 15px rgba( 0, 0, 0, 0.9);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+.info {
+    font-family: "Playfair Display";
+    height: 100vh;
+    color: white;
+    padding: 70px 10px 0 10px ;
+
+
+    background-image: url('../images/background-image\(1\).png.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo {
+    float: right;
+    width: 100px; height: 100px;
+    margin: 0 auto;
+    pointer-events: none;
+}
+.content-mask {
+    display: grid;
+    justify-content: left;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.content-mask h1 {
+    font-size: 3.4em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.content-mask p {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.mask-buttons button {
+    height: 40px;
+    padding: 10px;
+    margin: 0 15px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 0.8em;
+    font-weight: 900;
+    cursor: pointer;
+}
+.button-menu {
+    background-color: rgb(91, 184, 79);
+}
+.button-contact {
+    background-color: rgb(28, 28, 107);
+}
+
+
+
+.about {
+    font-family: 'Montserrat';
+    background-color: rgb(232, 229, 241);
+    padding: 30px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.about h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    font-family: 'Playfair Display';
+}
+.about hr {
+    width: 150px;
+    
+}
+.about p {
+    font-weight: 300;
+    font-size: 1.4em;
+    width: 70%;
+}
+
+.gallery-container {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.gallery {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    height: 300px;
+    padding: 20px 0px 20px 0px;
+}
+.gallery-item {
+    min-width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    pointer-events: none;
+}
+.gallery-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+}
+#prevBtn{
+    left: 10px;
+}
+#nextBtn{
+    right: 10px;
+}
+
+footer {
+    font-family: 'Montserrat';
+    background-color: rgb(62, 61, 61);
+    color: rgb(212, 211, 211);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+
+}
+footer h3{
+    font-weight: 300;
+    font-size: 1em;
+
+}
