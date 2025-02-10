@@ -49,6 +49,11 @@ header ul li a:hover {
     color: rgb(22, 222, 222);
     
 }
+ul li a.active {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 .info {
     font-family: "Playfair Display";
