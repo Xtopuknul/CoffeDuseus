@@ -28,6 +28,7 @@ header {
     height: 50px;
 }
 .burger-menu {
+    display: none;
     position: absolute;
     left: 20px;
     top: 0;
@@ -252,16 +253,19 @@ footer h3{
 
 }
 
-.menu-example {
-    padding-top: 50px;
-    background-color: rgb(85, 85, 85);
+.menu-container {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    padding: 20px;
 }
-.menu-example img {
-    width: 100dvh;  
+
+.menu-image {
+    max-width: 100%; /* Чтобы изображение занимало максимум доступного пространства */
+    height: auto; /* Сохраняет пропорции изображения */
+    border-radius: 10px; /* Немного округляем края, если нужно */
 }
+
 
 .main-contacts {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -379,6 +383,9 @@ footer h3{
 
     header ul li a {
         font-size: 1.2rem; /* Разумный размер */
+        width: 180px;
+        text-align: right;
+        padding-right: 10px;
     }
 
     .info .freepik {
@@ -419,8 +426,10 @@ footer h3{
     }
 
 
-    
-.gallery-container {
+    .menu-image {
+        max-width: 80%; /* Меньше место для мобильных устройств */
+    }
+/* .gallery-container {
     position: relative;
     width: 90%;
     overflow: hidden;
@@ -484,8 +493,8 @@ footer h3{
 #nextBtn{
     right: 10px;
 }
+} */
 }
-
 
 @media (max-width: 481px) {
     header ul li a {
@@ -550,4 +559,33 @@ footer h3{
         width: 90%;
 
     } 
+
+
+    .menu-image {
+        max-width: 100%; /* На очень маленьких экранах изображение может занять всю ширину */
+    }
+}
+
+@media (min-width: 782px) {
+    .burger-menu {
+        display: none; /* Прячем бургер-меню на больших экранах */
+    }
+
+    #nav-menu {
+        position: static;
+        width: auto; /* Меню растягивается на всю доступную ширину */
+        display: flex;
+        flex-direction: row; /* Горизонтальное меню на больших экранах */
+        justify-content: center;
+        height: auto;
+    }
+
+    #nav-menu ul {
+        flex-direction: row; /* Горизонтальный список */
+        padding-top: 0;
+    }
+
+    #nav-menu ul li {
+        border: none; /* Убираем разделительные полоски */
+    }
 }

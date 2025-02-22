@@ -8,8 +8,11 @@
 </head>
 <body>
     <header>
+        <div class="burger-menu" id="burger-menu">
+            ☰
+        </div>
         <div class="sidebar">
-            <ul>
+            <ul id="nav-menu">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="menu.html">Меню</a></li>
                 <li><a href="#places">Кофейни</a></li>
@@ -18,10 +21,13 @@
         </div>
     </header>
 
-        <div class="menu-example">
-    <img src="images/menu-example.jpg" alt="menu">
+
+        <div class="menu-container">
+                <img src="images/menu-example.jpg" alt="menu" class="menu-image">
+                <!-- <div class="menu-text">Designed by <a href="www.Freepik.com">Freepik</a></div> -->
         </div>
 
     <script src="./scripts/Switching.js"></script>
+    <script src="scripts/burger.js"></script>
 </body>
 </html>
