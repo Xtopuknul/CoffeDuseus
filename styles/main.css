@@ -510,6 +510,8 @@ footer h3{
         font-size: 1.4rem; 
     }
 
+    
+
     .info .freepik {
         font-size: 0.7rem;
     }
@@ -519,15 +521,15 @@ footer h3{
     }
 
     .content-mask {
-        padding-top: 25%;
+        padding-top: 35%;
         padding-left: 3%;
     }
     .content-mask h1{
-        font-size: 2rem;
-        
+        font-size: 2.3rem;
+        white-space: nowrap;
     }
     .content-mask p {
-        font-size: 1.2em;
+        font-size: 1.3em;
         font-weight: 700;
         margin-left: 10px;
     }

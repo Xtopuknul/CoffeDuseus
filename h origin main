@@ -1,0 +1,107 @@
+[33mcommit 520ed965a99372b8ec313ce82aaf40700a9de00c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Fri Feb 21 13:40:33 2025 +0100
+
+    Very much new elements: burger, style, some new in script and html (rewise)
+
+[33mcommit 0a7dd1f92707e72547f739a1320884684cdd48c0[m
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Fri Feb 21 13:36:54 2025 +0100
+
+    Very much new elements: burger, style, some new in script and html
+
+[33mcommit a52f40540571c319b7aee27fc99167f11a33f3d5[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Хто <xto.puknul@gmail.com>
+Date:   Sat Feb 15 12:46:12 2025 +0100
+
+    Update contacts.html изменил путь к styles
+
+[33mcommit 5aa3b9e09eb1a0f7b832103b627b5cbedfd824e5[m
+Author: Хто <xto.puknul@gmail.com>
+Date:   Thu Feb 13 13:45:20 2025 +0100
+
+    Update main.css мелкая коректировка
+
+[33mcommit 233a95163963e8d5b8a136be89b03d3d2cd3a27d[m
+Author: Хто <xto.puknul@gmail.com>
+Date:   Thu Feb 13 13:35:34 2025 +0100
+
+    Update main.css коректировка
+
+[33mcommit 85accc11398d039cd319b7cb0d55ba6f8e898ee1[m
+Author: Хто <xto.puknul@gmail.com>
+Date:   Thu Feb 13 13:33:07 2025 +0100
+
+    Update menu.html изменил ../Styles на styles
+
+[33mcommit 9528552e69d1b87aeda3256e507b3175c19d21eb[m
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Wed Feb 12 20:32:10 2025 +0100
+
+    End with menu html(only foto and style for it),was create contacts.html and tune it, and made watermarks for images
+
+[33mcommit 9320b08a79010aa239faa964853778a9d0ab81c7[m
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Tue Feb 11 17:04:15 2025 +0100
+
+    Not much but image menu and fixed the swithing
+
+[33mcommit 5b525b645b3c7ae5e9034f75dfaa7b1e1ae3c589[m
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Mon Feb 10 23:11:58 2025 +0100
+
+    added a menu section, as well as a new script for switching between pages Switching.js. + refinement of styles
+
+[33mcommit de6a8ba683ac52eae25de42b56778beed29da247[m
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Mon Feb 10 22:24:27 2025 +0100
+
+    adding shadows, details and finishing sidebar
+
+[33mcommit 77a612d6aecc7b5735a3d8d155855ad2de804d7f[m
+Merge: 36e0dc0 b33a17e
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Sun Feb 9 21:54:47 2025 +0100
+
+    Merge branch 'main' of https://github.com/Xtopuknul/CoffeDuseus
+
+[33mcommit 36e0dc09aafbcd0215e3021e0810e4deeb7b9e18[m
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Sun Feb 9 21:53:59 2025 +0100
+
+    Changed the language to ru
+
+[33mcommit b33a17e09e9e95640f2ecae8e7202f99d43ebb89[m
+Author: Хто <xto.puknul@gmail.com>
+Date:   Sun Feb 9 21:50:50 2025 +0100
+
+    Create README.md
+    
+    + description
+
+[33mcommit c3073612ccc5dc083dc46d0eb970027b50fc7eb2[m
+Merge: 668f19b 53df87a
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Sun Feb 9 21:46:36 2025 +0100
+
+    Remove local README.md to keep the remote version
+
+[33mcommit 668f19b63709d93ea40ce066d744d79b9a5ffd16[m
+Author: Xtopuknul <xto.puknul@gmail.com>
+Date:   Sun Feb 9 21:41:05 2025 +0100
+
+    first commit
+
+[33mcommit 53df87a287090b22e7779ff593eefff3735f7d92[m
+Author: Хто <xto.puknul@gmail.com>
+Date:   Sun Feb 9 21:37:26 2025 +0100
+
+    Update README.md
+    
+    + description
+
+[33mcommit bb511266ecb0655b4ab23ee2456ebafcde11fabe[m
+Author: Хто <xto.puknul@gmail.com>
+Date:   Sun Feb 9 21:36:49 2025 +0100
+
+    Initial commit
