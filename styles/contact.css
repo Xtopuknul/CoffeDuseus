@@ -196,18 +196,6 @@ ul li a.active {
 }
 
 @media (max-width: 1024px) {
-    .main-contacts {
-
-    }
-
-    .main-contacts .up-adres {
-    }
-
-    .main-contacts .up-adres ul {
-    }
-
-    .main-contacts .adres ul {
-    }
 
     .main-contacts .freepik {
         font-size: 1.2rem;
@@ -215,12 +203,6 @@ ul li a.active {
 }
 
 @media (max-width:781px) { 
-    .main-contacts {
-    }
-
-    .main-contacts .up-adres {
-
-    }
 
     .main-contacts .adres ul li{
         font-size: 1rem;
@@ -253,16 +235,6 @@ ul li a.active {
 @media (max-width: 481px) {
     .main-contacts {
         background-position: -200px 10px;
-    }
-
-    .main-contacts .up-adres {
-        
-    }
-
-    .main-contacts .up-adres ul {
-    }
-
-    .main-contacts .up-adres ul li {
     }
 
     .main-contacts .adres ul {
