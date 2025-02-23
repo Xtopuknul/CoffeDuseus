@@ -173,7 +173,7 @@ ul li a.active {
 
 .gallery-container {
     position: relative;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     margin: auto;
     display: flex;
@@ -184,7 +184,6 @@ ul li a.active {
     gap: 10px;
     overflow: hidden;
     scroll-behavior: smooth;
-    /* height: 300px; */
     padding: 20px 0px 20px 0px;
 }
 .gallery-container::before,
@@ -477,6 +476,28 @@ footer h3{
 
     } 
 
+    .gallery-item {
+        min-width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        pointer-events: none;
+    }
+
+    .gallery-container::before,
+    .gallery-container::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 60px;
+        height: 250px;
+        z-index: 2;
+        pointer-events: none;
+}
 }
 
 @media (min-width: 782px) {

@@ -86,6 +86,8 @@ ul li a.active {
     max-width: 100%; /* Чтобы изображение занимало максимум доступного пространства */
     height: auto; /* Сохраняет пропорции изображения */
     border-radius: 10px; /* Немного округляем края, если нужно */
+    margin-top: 40px;
+    box-shadow: 2px 3px 4px black;
 }
 
 #nav-menu {

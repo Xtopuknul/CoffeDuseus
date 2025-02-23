@@ -7,6 +7,7 @@
 
 body {
     background-color: rgb(40, 40, 40);
+    height: 100vh;
 }
 ::selection {
     background-color: #c0c0c0; /* Цвет фона */
@@ -121,31 +122,29 @@ ul li a.active {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 /* Стили для блока с адресами */
 .main-contacts .up-adres {
-    width: 40%; /* Устанавливаем фиксированную ширину 40% */
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
-    gap: 10px;
+
     list-style: none;
-    text-align: right;
-    position: relative; /* Для правильного позиционирования */
 }
 
 .main-contacts .up-adres ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    text-align: right;
+    list-style: none;
+    width: 400px;
 }
 
 .main-contacts .up-adres ul li {
+    font-family: "Montserrat";
     background-color: rgb(225, 225, 225);
     padding: 15px;
     width: 100%;
@@ -153,20 +152,21 @@ ul li a.active {
 
 .main-contacts .up-adres ul li p {
     font-size: 1.2rem;
-    font-weight: 100;
+    font-weight: 300;
     color: black;
 }
 
 .main-contacts .up-adres ul li h3 {
     font-size: 2rem;
+    font-weight: 600;
     color: rgb(101, 135, 246);
 }
 
 /* Стили для адреса внизу */
 .main-contacts .adres {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 10px;
+    bottom: 10px;
 }
 
 .main-contacts .adres ul {
@@ -177,7 +177,6 @@ ul li a.active {
     flex-direction: column;
     gap: 10px;
     text-align: right;
-    padding-bottom: 50px;
 }
 
 /* Стили для ссылки на Freepik */
@@ -185,7 +184,7 @@ ul li a.active {
     position: absolute;
     left: 0;
     bottom: 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     background-color: rgb(30, 30, 30);
     border-radius: 5px;
     padding: 5px;
@@ -198,21 +197,16 @@ ul li a.active {
 
 @media (max-width: 1024px) {
     .main-contacts {
-        padding: 50px 10px; /* Уменьшаем отступы для средних экранов */
+
     }
 
     .main-contacts .up-adres {
-        width: 50%; /* Для экранов меньше 1024px - 50% ширины */
     }
 
     .main-contacts .up-adres ul {
-        flex-direction: column;
-        align-items: center;
     }
 
     .main-contacts .adres ul {
-        font-size: 1rem;
-        padding-bottom: 40px;
     }
 
     .main-contacts .freepik {
@@ -222,25 +216,22 @@ ul li a.active {
 
 @media (max-width:781px) { 
     .main-contacts {
-        padding: 40px 5px;
     }
 
     .main-contacts .up-adres {
-        width: 60%; /* Для экранов меньше 768px - 60% ширины */
+
     }
 
-    .main-contacts .adres ul {
-        font-size: 0.9rem;
+    .main-contacts .adres ul li{
+        font-size: 1rem;
     }
 
     .main-contacts .freepik {
         font-size: 1rem;
     }
-
     .main-contacts .up-adres ul li p {
         font-size: 1rem;
     }
-
     .main-contacts .up-adres ul li h3 {
         font-size: 1.6rem;
     }
@@ -261,27 +252,24 @@ ul li a.active {
 
 @media (max-width: 481px) {
     .main-contacts {
-        padding: 20px 5px;
-        height: auto; /* Для мобильных экранов уменьшаем высоту */
+        background-position: -200px 10px;
     }
 
     .main-contacts .up-adres {
-        width: 80%; /* Для очень маленьких экранов - 80% ширины */
-        align-items: center;
+        
     }
 
     .main-contacts .up-adres ul {
-        align-items: center;
-        padding: 10px;
     }
 
     .main-contacts .up-adres ul li {
-        width: 90%; /* Уменьшаем ширину для маленьких экранов */
     }
 
     .main-contacts .adres ul {
-        font-size: 0.8rem;
         padding-bottom: 30px;
+    }
+    .main-contacts .adres ul li{
+        font-size: 1rem;
     }
 
     .main-contacts .freepik {
