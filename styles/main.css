@@ -97,7 +97,12 @@ ul li a.active {
 .info .freepik a {
     text-decoration: none;
     color: rgb(96, 101, 255);
+    transition: color 0.3s ease-in-out;
 }
+.info a:hover {
+    color: rgb(191, 81, 222);
+}
+
 .logo {
     float: right;
     width: 150px; height: 150px;

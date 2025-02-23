@@ -76,19 +76,44 @@ ul li a.active {
 
 
 .menu-container {
+    position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
 }
 
 .menu-image {
-    max-width: 100%; /* Чтобы изображение занимало максимум доступного пространства */
-    height: auto; /* Сохраняет пропорции изображения */
-    border-radius: 10px; /* Немного округляем края, если нужно */
-    margin-top: 40px;
-    box-shadow: 2px 3px 4px black;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 50px 0 10px 0;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
 }
+
+.menu-text {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    background-color: rgba(66, 66, 66, 0.9);
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.menu-text a {
+    text-decoration: none;
+    color: rgb(93, 98, 242);
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-text a:hover {
+    color: rgb(191, 81, 222);
+}
+
 
 #nav-menu {
     position: fixed;

@@ -193,6 +193,11 @@ ul li a.active {
 .main-contacts .freepik a {
     text-decoration: none;
     color: rgb(96, 101, 255);
+    transition: color 0.3s ease-in-out;
+}
+
+.main-contacts a:hover {
+    color: rgb(191, 81, 222);
 }
 
 @media (max-width: 1024px) {
